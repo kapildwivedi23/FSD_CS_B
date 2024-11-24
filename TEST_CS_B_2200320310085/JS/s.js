@@ -1,6 +1,4 @@
-
-
-const apiKey = "fd07a225a3adeba988a5b22e613cc6c3";
+const apiKey = "003b60b0a9e1e0cf160d68acc1d20911";
 
 function getWeather() {
     const city = document.getElementById("cityInput").value;
@@ -12,11 +10,15 @@ function getWeather() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
         .then(response => response.json())
         .then(data => {
-            displayWeather(data);
+            if (data.cod === 200) { 
+                displayWeather(data);
+            } else {
+                alert("City not found.");
+            }
         })
         .catch(error => {
             console.error("Error fetching weather data:", error);
-            alert("City not found.");
+            alert("Unable to fetch weather data.");
         });
 }
 

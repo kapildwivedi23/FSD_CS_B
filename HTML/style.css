@@ -1,0 +1,39 @@
+body{
+    border:2px solid black;   
+}
+.container{ 
+    padding: 40px;
+    background-color: rgb(172, 243, 243);
+}
+input,label{
+    text-align: center;
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px; 
+    display: inline;
+}
+.b1{
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: green;
+}
+.b2{
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: rgb(209, 39, 39);
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(237, 237, 96);
+    display: block;
+}
+h3{
+padding: 0px;
+margin: 3px;
+}
+button:focus{
+    background-color: bisque;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/TEST_CS_B_2200320310085/CSS/style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <form onsubmit="return validateForm()" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div style="display: flex; justify-content: space-between;">
+                <button type="submit" class="login-btn">Login</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/TEST_CS_B_2200320310085/JS/index.js"></script>
+
+</body>
+
+</html>

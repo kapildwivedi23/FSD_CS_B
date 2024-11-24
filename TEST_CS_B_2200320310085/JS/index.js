@@ -6,7 +6,7 @@ function validateForm() {
     
     if (username === "admin" && password === "admin") {
         
-        window.location.href = "weatherdashboard.html";
+        window.location.href = "weather.html";
         return false; 
     } else {
         alert("Invalid username or password");
