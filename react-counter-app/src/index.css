@@ -1,0 +1,37 @@
+.c1{
+    color: black;
+    /* background-color: antiquewhite; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: left;
+}
+.c2{
+    
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: left;
+}
+.counter{
+    background-color: hsl(180, 100%, 80%);
+    border: 1px solid hsl(0, 4%, 10%);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter .b1,.b2{
+    color: black;
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 5px;
+}
+.counter .b1{
+    background-color: hsl(120, 100%, 50%);
+}
+.counter .b2{
+    background-color: hsl(37, 100%, 71%);
+}
+.home {
+    color: black;
+}
