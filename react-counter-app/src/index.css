@@ -34,4 +34,12 @@
 }
 .home {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.home li{
+    text-align: left;
 }
