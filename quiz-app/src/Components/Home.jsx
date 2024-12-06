@@ -4,7 +4,7 @@ const Home=()=>{
         <div>
             <ul>
                 <li>
-                    <Link to='/login'>login</Link>
+                    <Link to='/Header'>login</Link>
                 </li>
                 <li>
                     <Link to='/signup'>Signup</Link>

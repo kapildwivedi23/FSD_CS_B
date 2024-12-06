@@ -1,7 +1,7 @@
 import {Routes,Route} from 'react-router-dom'
-import Home from './component/Home.jsx'
-import Counter from './component/Counter.jsx'
-import Quiz from './component/Quiz.jsx'
+import Home from './Components/Home.jsx'
+import Counter from './Components/Counter.jsx'
+import Quiz from './Components/Quiz.jsx'
 const App=()=>{
   return(
     <div>
