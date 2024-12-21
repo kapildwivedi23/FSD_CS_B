@@ -1,28 +1,26 @@
-import { Link } from "react-router-dom"
-import Header from "./Header"
-import Register from "./Register"
-import Footer from "./Footer"
-
-
-
-
-function Home() {
-    return (
-        <div>
-            <h1><Header /></h1>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/login">Login</Link>
-                    </li>
-                    <li>
-                        <Link to="/Register">Register</Link>
-                    </li>
-                </ul>
-            </nav>
-            <Outlet></Outlet>
-            <Footer/>
-        </div>
-    )
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import { Link, Outlet } from 'react-router-dom'
+import "../App.css"
+const Home = () => {
+  return (
+    <div>
+        <Header/>
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/login">Login</Link>
+                </li>
+                <li>
+                    <Link to="/register">Register</Link>
+                </li>
+            </ul>
+        </nav>
+        <Outlet/>
+        <Footer/>
+    </div>
+  )
 }
+
 export default Home
